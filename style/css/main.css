@@ -62,6 +62,7 @@ body {
   transition: 0.5s ease;
 }
 .card__img__shadow {
+  border-radius: 20px;
   position: absolute;
   background-color: rgba(0, 255, 247, 0.4);
   width: 100%;
@@ -69,6 +70,7 @@ body {
   top: 0%;
   opacity: 0;
   transition: 0.5s ease;
+  border-radius: 20px;
 }
 .card__img:hover .card__img__overlay, .card__img:hover .card__img__shadow {
   opacity: 1;
